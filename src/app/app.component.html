@@ -1,0 +1,16 @@
+<div class="container" style="width:700px">
+  <div style="margin: 20px">
+    <h3>Intelligent Document Processing</h3>
+  </div>
+  <div id="welcome" class="container" style="width: 700px; margin: 40px" [hidden] = "welcomeShow">
+    <h4>Welcome to ABC Bank</h4>
+    <button class="btn btn-success" (click)="showUpload()">
+      Get Started
+    </button>
+  </div>
+  <div id="upload" class="container" style="width: 600px; margin: 20px" [hidden]="isShow">
+    
+    <app-upload-files></app-upload-files>
+  </div>
+  
+</div>

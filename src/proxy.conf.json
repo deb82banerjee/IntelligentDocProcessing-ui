@@ -1,0 +1,10 @@
+{
+    "/": {
+      "target": "https://localhost:9091/idp",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/idp": ""
+      }
+    }
+  }
